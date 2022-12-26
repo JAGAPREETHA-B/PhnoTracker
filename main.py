@@ -13,7 +13,7 @@ service_num=phonenumbers.parse(num,"RO")
 print(carrier.name_for_number(service_num, "en"))
 
 from opencage.geocoder import OpenCageGeocode
-key= '32cb7763c2314adfa924d70a6c27eba2'
+key= '32c*******'
 
 geocoder = OpenCageGeocode(key)
 query = str(location)
